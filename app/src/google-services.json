@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "75735108102",
+    "project_id": "phonewalls-demo",
+    "storage_bucket": "phonewalls-demo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75735108102:android:88aac5bcc658e6d9c45187",
+        "android_client_info": {
+          "package_name": "com.example.demo_phonewalls"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvn6MN_alMsmAdjnNBzeqTaCVUaPf45uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
