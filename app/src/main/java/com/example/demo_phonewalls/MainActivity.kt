@@ -23,5 +23,6 @@ class MainActivity : AppCompatActivity() {
             .load(imageUrl)
             .into(imageView)
         Resources(firebase).getAllBrand();
+        Resources(firebase).getAllPicture();
     }
 }

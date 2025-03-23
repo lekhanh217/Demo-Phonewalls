@@ -16,7 +16,7 @@ class Picture {
         resolution: String,
         url: String,
         create_at: String,
-        update_at: String?,
+        update_at: String ?,
         colorList: List<Color>
     ) {
         this.id = id
@@ -27,5 +27,9 @@ class Picture {
         this.create_at = create_at
         this.update_at = update_at
         this.colorList = colorList
+    }
+
+    override fun toString(): String {
+        return "$id $brand_id $name $resolution $url $create_at $update_at sizeColor ${colorList.size}";
     }
 }

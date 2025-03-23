@@ -5,14 +5,14 @@ class Color {
     private var picture_id : String
     private var hex_code : String
     private var create_at : String
-    private var update_at : String
+    private var update_at : String?
 
     constructor(
         id: String,
         picture_id: String,
         hex_code: String,
         create_at: String,
-        update_at: String
+        update_at: String?
     ) {
         this.id = id
         this.picture_id = picture_id
